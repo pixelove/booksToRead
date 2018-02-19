@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import '../App.css';
+// eslint-disable-next-line
+import Header from './Header';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Books I want to read (someday)</h1>
-        </header>
+        <Header text="pixelove's books to read" />
         <p className="App-intro">
-          <strong>[placeholder for content]</strong>
+          <strong>placeholder for content</strong>
         </p>
       </div>
     );
